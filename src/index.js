@@ -1,4 +1,6 @@
+import _ from 'lodash';
 import { cube } from './math.js';
+import Print from './print';
 
 if (process.env.NODE_ENV !== 'production') {
   console.log(process.env.NODE_ENV)
@@ -13,6 +15,7 @@ function component() {
     'Hello webpack!',
     '5 cubed is equal to ' + cube(5)
   ].join('\n\n');
+  element.onclick = Print.bind(null, 'Hello webpack!');
 
   return element;
 }
