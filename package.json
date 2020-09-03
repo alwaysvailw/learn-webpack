@@ -5,6 +5,7 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --open",
     "build": "webpack"
   },
   "keywords": [],
@@ -18,6 +19,7 @@
     "style-loader": "^1.2.1",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
     "xml-loader": "^1.2.1"
   },
   "dependencies": {

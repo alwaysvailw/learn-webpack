@@ -7,8 +7,15 @@ module.exports = {
     app: './src/index.js',
     print: './src/print.js',
   },
+  
+  // 使用webpack-dev-server 
+  devServer: {
+    contentBase: path.join(__dirname, 'dist'),
+    compress: true,
+    port: 9000
+  },
   plugins: [
-    new CleanWebpackPlugin(),
+    new CleanWebpackPlugin({ cleanStaleWebpackAssets: false }),
     new HtmlWebpackPlugin({
       title: 'Output Management',
     }),
