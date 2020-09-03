@@ -1,5 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin'); // 自动生成 index.html
+const { CleanWebpackPlugin } = require('clean-webpack-plugin'); // 自动清理 /dist
 
 module.exports = {
   entry: {
@@ -7,6 +8,7 @@ module.exports = {
     print: './src/print.js',
   },
   plugins: [
+    new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       title: 'Output Management',
     }),
