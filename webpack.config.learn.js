@@ -4,10 +4,10 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin'); // 自动清理 
 
 module.exports = {
   entry: {
-    app: './src/index.js',
-    print: './src/print.js',
+    index: './src/index.js',
+    another: './src/another-module.js',
   },
-  
+
   // 使用webpack-dev-server 
   devServer: {
     contentBase: path.join(__dirname, 'dist'),
@@ -23,6 +23,13 @@ module.exports = {
   output: {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),
+  },
+  
+  // 代码分离
+  optimization: {
+    splitChunks: {
+      chunks: 'all',
+    },
   },
   module: {
     rules: [
