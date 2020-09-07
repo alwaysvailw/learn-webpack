@@ -5,8 +5,8 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --open",
-    "build": "webpack",
+    "start": "webpack-dev-server --open --config webpack.config.dev.js",
+    "build": "webpack --config webpack.config.prod.js",
     "build:dll": "webpack -p --progress --config ./webpack.config.dll.js"
   },
   "keywords": [],
@@ -22,6 +22,7 @@
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.1.3",
     "xml-loader": "^1.2.1"
   },
   "dependencies": {
