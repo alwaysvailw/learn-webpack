@@ -1,8 +1,5 @@
-import _ from 'lodash';
-import moment from 'moment';
+console.log('The print.js module has loaded! See the network tab in dev tools...');
 
-export default function printMe() {
-  console.log('I get called from print.js!');
-  console.log(moment())
-  let a = _.join(['Hello', 'webpack'], ' ');
-}
+export default () => {
+  console.log('Button Clicked: Here\'s "some text"!');
+};

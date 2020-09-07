@@ -1,16 +1,30 @@
-import { cube } from './math.js';
-
-if (process.env.NODE_ENV !== 'production') {
-  console.log('Looks like we are in development mode!');
-}
+import _ from 'lodash';
 
 function component() {
-  const element = document.createElement('pre');
+  const element = document.createElement('div');
+  const button = document.createElement('button');
+  const button2 = document.createElement('button');
+  const br = document.createElement('br');
 
-  element.innerHTML = [
-    'Hello webpack!',
-    '5 cubed is equal to ' + cube(5)
-  ].join('\n\n');
+  button.innerHTML = 'Click me and look at the console!';
+  button2.innerHTML = '2Click me and look at the console!';
+  element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+  element.appendChild(br);
+  element.appendChild(button);
+  element.appendChild(button2);
+
+  // Note that because a network request is involved, some indication
+  // of loading would need to be shown in a production-level site/app.
+  button.onclick = e => import(/* webpackChunkName: "print" */ './print').then(module => {
+    const print = module.default;
+
+    print();
+  });
+  button2.onclick = e => import(/* webpackChunkName: "print2" */ './print2').then(module => {
+    const print2 = module.default;
+
+    print2();
+  });
 
   return element;
 }
