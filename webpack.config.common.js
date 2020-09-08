@@ -2,6 +2,7 @@ const path = require('path');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const WorkboxPlugin = require('workbox-webpack-plugin');
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 module.exports = {
   entry: {
@@ -19,6 +20,7 @@ module.exports = {
       clientsClaim: true,
       skipWaiting: true,
     }),
+    new BundleAnalyzerPlugin()
   ],
   output: {
     filename: '[name].bundle.js',

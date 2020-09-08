@@ -1,0 +1,1423 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.44.1",
+  "hash": "fefea15e1ba3205fadf4",
+  "time": 300,
+  "builtAt": 1599530079339,
+  "publicPath": "",
+  "outputPath": "/Users/weiwei/Code/learn-webpack/dist",
+  "assetsByChunkName": {
+    "another": "another.3097572a200b84b90120.js",
+    "index": "index.b95d93eccbeb24b892b0.js",
+    "print": "print.14a9f3d1ac687df86d6e.js",
+    "print2": "print2.6e6b67e66f2cf86ccab0.js",
+    "runtime": "runtime.cf0dd300e9a2ca77dd92.js"
+  },
+  "assets": [
+    {
+      "name": "another.3097572a200b84b90120.js",
+      "size": 2639,
+      "chunks": [
+        "another"
+      ],
+      "chunkNames": [
+        "another"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": true
+    },
+    {
+      "name": "index.b95d93eccbeb24b892b0.js",
+      "size": 5987,
+      "chunks": [
+        "index"
+      ],
+      "chunkNames": [
+        "index"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": true
+    },
+    {
+      "name": "index.html",
+      "size": 463,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "print.14a9f3d1ac687df86d6e.js",
+      "size": 1119,
+      "chunks": [
+        "print"
+      ],
+      "chunkNames": [
+        "print"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": true
+    },
+    {
+      "name": "print2.6e6b67e66f2cf86ccab0.js",
+      "size": 1133,
+      "chunks": [
+        "print2"
+      ],
+      "chunkNames": [
+        "print2"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": true
+    },
+    {
+      "name": "runtime.cf0dd300e9a2ca77dd92.js",
+      "size": 21958,
+      "chunks": [
+        "runtime"
+      ],
+      "chunkNames": [
+        "runtime"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": true
+    },
+    {
+      "name": "static/js/dll/Dll.lodash.js",
+      "size": 73949,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "copied": true
+      },
+      "emitted": true
+    },
+    {
+      "name": "static/js/dll/Dll.moment.js",
+      "size": 293137,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "copied": true
+      },
+      "emitted": true
+    },
+    {
+      "name": "static/js/dll/lodash-manifest.json",
+      "size": 364,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "copied": true
+      },
+      "emitted": true
+    },
+    {
+      "name": "static/js/dll/moment-manifest.json",
+      "size": 13707,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "copied": true
+      },
+      "emitted": true
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "index": {
+      "chunks": [
+        "runtime",
+        "index"
+      ],
+      "assets": [
+        "runtime.cf0dd300e9a2ca77dd92.js",
+        "index.b95d93eccbeb24b892b0.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "another": {
+      "chunks": [
+        "runtime",
+        "another"
+      ],
+      "assets": [
+        "runtime.cf0dd300e9a2ca77dd92.js",
+        "another.3097572a200b84b90120.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "index": {
+      "chunks": [
+        "runtime",
+        "index"
+      ],
+      "assets": [
+        "runtime.cf0dd300e9a2ca77dd92.js",
+        "index.b95d93eccbeb24b892b0.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "another": {
+      "chunks": [
+        "runtime",
+        "another"
+      ],
+      "assets": [
+        "runtime.cf0dd300e9a2ca77dd92.js",
+        "another.3097572a200b84b90120.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "print": {
+      "chunks": [
+        "print"
+      ],
+      "assets": [
+        "print.14a9f3d1ac687df86d6e.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "print2": {
+      "chunks": [
+        "print2"
+      ],
+      "assets": [
+        "print2.6e6b67e66f2cf86ccab0.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "chunks": [
+    {
+      "id": "another",
+      "rendered": true,
+      "initial": true,
+      "entry": false,
+      "size": 172,
+      "names": [
+        "another"
+      ],
+      "files": [
+        "another.3097572a200b84b90120.js"
+      ],
+      "hash": "5557a36add72f55b372a",
+      "siblings": [
+        "runtime"
+      ],
+      "parents": [],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": "nifV",
+          "identifier": "/Users/weiwei/Code/learn-webpack/src/another-module.js",
+          "name": "./src/another-module.js",
+          "index": 3,
+          "index2": 3,
+          "size": 88,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "another"
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "profile": {
+            "factory": 56,
+            "building": 41,
+            "dependencies": 64
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "./src/another-module.js",
+              "loc": "another"
+            }
+          ],
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "import _ from 'lodash';\n\nconsole.log(\n  _.join(['Another', 'module', 'loaded!'], ' ')\n);"
+        },
+        {
+          "id": "oUqH",
+          "identifier": "delegated 136 from dll-reference lodash_dll_3158fce9366f9bc47f26",
+          "name": "delegated ./node_modules/_lodash@4.17.20@lodash/lodash.js from dll-reference lodash_dll_3158fce9366f9bc47f26",
+          "index": 1,
+          "index2": 1,
+          "size": 42,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "index",
+            "another"
+          ],
+          "issuer": "/Users/weiwei/Code/learn-webpack/src/index.js",
+          "issuerId": "tjUo",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "id": "tjUo",
+              "identifier": "/Users/weiwei/Code/learn-webpack/src/index.js",
+              "name": "./src/index.js",
+              "profile": {
+                "factory": 84,
+                "building": 44
+              }
+            }
+          ],
+          "profile": {
+            "factory": 66,
+            "building": 0
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "nifV",
+              "moduleIdentifier": "/Users/weiwei/Code/learn-webpack/src/another-module.js",
+              "module": "./src/another-module.js",
+              "moduleName": "./src/another-module.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "lodash",
+              "loc": "1:0-23"
+            },
+            {
+              "moduleId": "nifV",
+              "moduleIdentifier": "/Users/weiwei/Code/learn-webpack/src/another-module.js",
+              "module": "./src/another-module.js",
+              "moduleName": "./src/another-module.js",
+              "type": "harmony import specifier",
+              "userRequest": "lodash",
+              "loc": "4:2-3"
+            },
+            {
+              "moduleId": "tjUo",
+              "moduleIdentifier": "/Users/weiwei/Code/learn-webpack/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "lodash",
+              "loc": "1:0-23"
+            },
+            {
+              "moduleId": "tjUo",
+              "moduleIdentifier": "/Users/weiwei/Code/learn-webpack/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "type": "harmony import specifier",
+              "userRequest": "lodash",
+              "loc": "21:22-23"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "id": "xCld",
+          "identifier": "external \"lodash_dll_3158fce9366f9bc47f26\"",
+          "name": "external \"lodash_dll_3158fce9366f9bc47f26\"",
+          "index": 2,
+          "index2": 0,
+          "size": 42,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "index",
+            "another"
+          ],
+          "issuer": "delegated 136 from dll-reference lodash_dll_3158fce9366f9bc47f26",
+          "issuerId": "oUqH",
+          "issuerName": "delegated ./node_modules/_lodash@4.17.20@lodash/lodash.js from dll-reference lodash_dll_3158fce9366f9bc47f26",
+          "issuerPath": [
+            {
+              "id": "tjUo",
+              "identifier": "/Users/weiwei/Code/learn-webpack/src/index.js",
+              "name": "./src/index.js",
+              "profile": {
+                "factory": 84,
+                "building": 44
+              }
+            },
+            {
+              "id": "oUqH",
+              "identifier": "delegated 136 from dll-reference lodash_dll_3158fce9366f9bc47f26",
+              "name": "delegated ./node_modules/_lodash@4.17.20@lodash/lodash.js from dll-reference lodash_dll_3158fce9366f9bc47f26",
+              "profile": {
+                "factory": 66,
+                "building": 0
+              }
+            }
+          ],
+          "profile": {
+            "factory": 0,
+            "building": 0
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "oUqH",
+              "moduleIdentifier": "delegated 136 from dll-reference lodash_dll_3158fce9366f9bc47f26",
+              "module": "delegated ./node_modules/_lodash@4.17.20@lodash/lodash.js from dll-reference lodash_dll_3158fce9366f9bc47f26",
+              "moduleName": "delegated ./node_modules/_lodash@4.17.20@lodash/lodash.js from dll-reference lodash_dll_3158fce9366f9bc47f26",
+              "type": "delegated source",
+              "userRequest": "dll-reference lodash_dll_3158fce9366f9bc47f26"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 2
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "another",
+          "request": "./src/another-module.js",
+          "reasons": []
+        }
+      ]
+    },
+    {
+      "id": "index",
+      "rendered": true,
+      "initial": true,
+      "entry": false,
+      "size": 1422,
+      "names": [
+        "index"
+      ],
+      "files": [
+        "index.b95d93eccbeb24b892b0.js"
+      ],
+      "hash": "67f8ebf290014de72d52",
+      "siblings": [
+        "runtime"
+      ],
+      "parents": [],
+      "children": [
+        "print",
+        "print2"
+      ],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": "oUqH",
+          "identifier": "delegated 136 from dll-reference lodash_dll_3158fce9366f9bc47f26",
+          "name": "delegated ./node_modules/_lodash@4.17.20@lodash/lodash.js from dll-reference lodash_dll_3158fce9366f9bc47f26",
+          "index": 1,
+          "index2": 1,
+          "size": 42,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "index",
+            "another"
+          ],
+          "issuer": "/Users/weiwei/Code/learn-webpack/src/index.js",
+          "issuerId": "tjUo",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "id": "tjUo",
+              "identifier": "/Users/weiwei/Code/learn-webpack/src/index.js",
+              "name": "./src/index.js",
+              "profile": {
+                "factory": 84,
+                "building": 44
+              }
+            }
+          ],
+          "profile": {
+            "factory": 66,
+            "building": 0
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "nifV",
+              "moduleIdentifier": "/Users/weiwei/Code/learn-webpack/src/another-module.js",
+              "module": "./src/another-module.js",
+              "moduleName": "./src/another-module.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "lodash",
+              "loc": "1:0-23"
+            },
+            {
+              "moduleId": "nifV",
+              "moduleIdentifier": "/Users/weiwei/Code/learn-webpack/src/another-module.js",
+              "module": "./src/another-module.js",
+              "moduleName": "./src/another-module.js",
+              "type": "harmony import specifier",
+              "userRequest": "lodash",
+              "loc": "4:2-3"
+            },
+            {
+              "moduleId": "tjUo",
+              "moduleIdentifier": "/Users/weiwei/Code/learn-webpack/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "lodash",
+              "loc": "1:0-23"
+            },
+            {
+              "moduleId": "tjUo",
+              "moduleIdentifier": "/Users/weiwei/Code/learn-webpack/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "type": "harmony import specifier",
+              "userRequest": "lodash",
+              "loc": "21:22-23"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "id": "tjUo",
+          "identifier": "/Users/weiwei/Code/learn-webpack/src/index.js",
+          "name": "./src/index.js",
+          "index": 0,
+          "index2": 2,
+          "size": 1338,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "index"
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "profile": {
+            "factory": 84,
+            "building": 44
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "./src/index.js",
+              "loc": "index"
+            }
+          ],
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "import _ from 'lodash';\n\nif ('serviceWorker' in navigator) {\n  window.addEventListener('load', () => {\n    navigator.serviceWorker.register('/service-worker.js').then(registration => {\n      console.log('SW registered: ', registration);\n    }).catch(registrationError => {\n      console.log('SW registration failed: ', registrationError);\n    });\n  });\n}\n\nfunction component() {\n  const element = document.createElement('div');\n  const button = document.createElement('button');\n  const button2 = document.createElement('button');\n  const br = document.createElement('br');\n\n  button.innerHTML = 'Click me and look at the console!';\n  button2.innerHTML = '2Click me and look at the console!';\n  element.innerHTML = _.join(['Hello', 'webpack'], ' ');\n  element.appendChild(br);\n  element.appendChild(button);\n  element.appendChild(button2);\n\n  // Note that because a network request is involved, some indication\n  // of loading would need to be shown in a production-level site/app.\n  button.onclick = e => import(/* webpackChunkName: \"print\" */ './print').then(module => {\n    const print = module.default;\n\n    print();\n  });\n  button2.onclick = e => import(/* webpackChunkName: \"print2\" */ './print2').then(module => {\n    const print2 = module.default;\n\n    print2();\n  });\n\n  return element;\n}\n\ndocument.body.appendChild(component());"
+        },
+        {
+          "id": "xCld",
+          "identifier": "external \"lodash_dll_3158fce9366f9bc47f26\"",
+          "name": "external \"lodash_dll_3158fce9366f9bc47f26\"",
+          "index": 2,
+          "index2": 0,
+          "size": 42,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "index",
+            "another"
+          ],
+          "issuer": "delegated 136 from dll-reference lodash_dll_3158fce9366f9bc47f26",
+          "issuerId": "oUqH",
+          "issuerName": "delegated ./node_modules/_lodash@4.17.20@lodash/lodash.js from dll-reference lodash_dll_3158fce9366f9bc47f26",
+          "issuerPath": [
+            {
+              "id": "tjUo",
+              "identifier": "/Users/weiwei/Code/learn-webpack/src/index.js",
+              "name": "./src/index.js",
+              "profile": {
+                "factory": 84,
+                "building": 44
+              }
+            },
+            {
+              "id": "oUqH",
+              "identifier": "delegated 136 from dll-reference lodash_dll_3158fce9366f9bc47f26",
+              "name": "delegated ./node_modules/_lodash@4.17.20@lodash/lodash.js from dll-reference lodash_dll_3158fce9366f9bc47f26",
+              "profile": {
+                "factory": 66,
+                "building": 0
+              }
+            }
+          ],
+          "profile": {
+            "factory": 0,
+            "building": 0
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "oUqH",
+              "moduleIdentifier": "delegated 136 from dll-reference lodash_dll_3158fce9366f9bc47f26",
+              "module": "delegated ./node_modules/_lodash@4.17.20@lodash/lodash.js from dll-reference lodash_dll_3158fce9366f9bc47f26",
+              "moduleName": "delegated ./node_modules/_lodash@4.17.20@lodash/lodash.js from dll-reference lodash_dll_3158fce9366f9bc47f26",
+              "type": "delegated source",
+              "userRequest": "dll-reference lodash_dll_3158fce9366f9bc47f26"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 2
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "index",
+          "request": "./src/index.js",
+          "reasons": []
+        }
+      ]
+    },
+    {
+      "id": "print",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 165,
+      "names": [
+        "print"
+      ],
+      "files": [
+        "print.14a9f3d1ac687df86d6e.js"
+      ],
+      "hash": "60a34694032eeb1703bb",
+      "siblings": [],
+      "parents": [
+        "index",
+        "runtime"
+      ],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": "dSPy",
+          "identifier": "/Users/weiwei/Code/learn-webpack/src/print.js",
+          "name": "./src/print.js",
+          "index": 4,
+          "index2": 4,
+          "size": 165,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "print"
+          ],
+          "issuer": "/Users/weiwei/Code/learn-webpack/src/index.js",
+          "issuerId": "tjUo",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "id": "tjUo",
+              "identifier": "/Users/weiwei/Code/learn-webpack/src/index.js",
+              "name": "./src/index.js",
+              "profile": {
+                "factory": 84,
+                "building": 44
+              }
+            }
+          ],
+          "profile": {
+            "factory": 66,
+            "building": 0
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "tjUo",
+              "moduleIdentifier": "/Users/weiwei/Code/learn-webpack/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "type": "import()",
+              "userRequest": "./print",
+              "loc": "28:24-73"
+            }
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "console.log('The print.js module has loaded! See the network tab in dev tools...');\n\nexport default () => {\n  console.log('Button Clicked: Here\\'s \"some text\"!');\n};"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "moduleId": "tjUo",
+          "module": "/Users/weiwei/Code/learn-webpack/src/index.js",
+          "moduleIdentifier": "/Users/weiwei/Code/learn-webpack/src/index.js",
+          "moduleName": "./src/index.js",
+          "loc": "28:24-73",
+          "request": "./print",
+          "reasons": []
+        }
+      ]
+    },
+    {
+      "id": "print2",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 167,
+      "names": [
+        "print2"
+      ],
+      "files": [
+        "print2.6e6b67e66f2cf86ccab0.js"
+      ],
+      "hash": "10840c5f37682a6cac58",
+      "siblings": [],
+      "parents": [
+        "index",
+        "runtime"
+      ],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": "xjlc",
+          "identifier": "/Users/weiwei/Code/learn-webpack/src/print2.js",
+          "name": "./src/print2.js",
+          "index": 5,
+          "index2": 5,
+          "size": 167,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "print2"
+          ],
+          "issuer": "/Users/weiwei/Code/learn-webpack/src/index.js",
+          "issuerId": "tjUo",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "id": "tjUo",
+              "identifier": "/Users/weiwei/Code/learn-webpack/src/index.js",
+              "name": "./src/index.js",
+              "profile": {
+                "factory": 84,
+                "building": 44
+              }
+            }
+          ],
+          "profile": {
+            "factory": 66,
+            "building": 0
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "tjUo",
+              "moduleIdentifier": "/Users/weiwei/Code/learn-webpack/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "type": "import()",
+              "userRequest": "./print2",
+              "loc": "33:25-76"
+            }
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "console.log('2The print.js module has loaded! See the network tab in dev tools...');\n\nexport default () => {\n  console.log('2Button Clicked: Here\\'s \"some text\"!');\n};"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "moduleId": "tjUo",
+          "module": "/Users/weiwei/Code/learn-webpack/src/index.js",
+          "moduleIdentifier": "/Users/weiwei/Code/learn-webpack/src/index.js",
+          "moduleName": "./src/index.js",
+          "loc": "33:25-76",
+          "request": "./print2",
+          "reasons": []
+        }
+      ]
+    },
+    {
+      "id": "runtime",
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 0,
+      "names": [
+        "runtime"
+      ],
+      "files": [
+        "runtime.cf0dd300e9a2ca77dd92.js"
+      ],
+      "hash": "2cde1210f498f883228f",
+      "siblings": [
+        "another",
+        "index"
+      ],
+      "parents": [],
+      "children": [
+        "print",
+        "print2"
+      ],
+      "childrenByOrder": {},
+      "modules": [],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "another",
+          "request": "./src/another-module.js",
+          "reasons": []
+        },
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "index",
+          "request": "./src/index.js",
+          "reasons": []
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": "dSPy",
+      "identifier": "/Users/weiwei/Code/learn-webpack/src/print.js",
+      "name": "./src/print.js",
+      "index": 4,
+      "index2": 4,
+      "size": 165,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "print"
+      ],
+      "issuer": "/Users/weiwei/Code/learn-webpack/src/index.js",
+      "issuerId": "tjUo",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "id": "tjUo",
+          "identifier": "/Users/weiwei/Code/learn-webpack/src/index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "factory": 84,
+            "building": 44
+          }
+        }
+      ],
+      "profile": {
+        "factory": 66,
+        "building": 0
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "tjUo",
+          "moduleIdentifier": "/Users/weiwei/Code/learn-webpack/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "type": "import()",
+          "userRequest": "./print",
+          "loc": "28:24-73"
+        }
+      ],
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [],
+      "depth": 1,
+      "source": "console.log('The print.js module has loaded! See the network tab in dev tools...');\n\nexport default () => {\n  console.log('Button Clicked: Here\\'s \"some text\"!');\n};"
+    },
+    {
+      "id": "nifV",
+      "identifier": "/Users/weiwei/Code/learn-webpack/src/another-module.js",
+      "name": "./src/another-module.js",
+      "index": 3,
+      "index2": 3,
+      "size": 88,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "another"
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "profile": {
+        "factory": 56,
+        "building": 41,
+        "dependencies": 64
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "type": "single entry",
+          "userRequest": "./src/another-module.js",
+          "loc": "another"
+        }
+      ],
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": 0,
+      "source": "import _ from 'lodash';\n\nconsole.log(\n  _.join(['Another', 'module', 'loaded!'], ' ')\n);"
+    },
+    {
+      "id": "oUqH",
+      "identifier": "delegated 136 from dll-reference lodash_dll_3158fce9366f9bc47f26",
+      "name": "delegated ./node_modules/_lodash@4.17.20@lodash/lodash.js from dll-reference lodash_dll_3158fce9366f9bc47f26",
+      "index": 1,
+      "index2": 1,
+      "size": 42,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "index",
+        "another"
+      ],
+      "issuer": "/Users/weiwei/Code/learn-webpack/src/index.js",
+      "issuerId": "tjUo",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "id": "tjUo",
+          "identifier": "/Users/weiwei/Code/learn-webpack/src/index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "factory": 84,
+            "building": 44
+          }
+        }
+      ],
+      "profile": {
+        "factory": 66,
+        "building": 0
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "nifV",
+          "moduleIdentifier": "/Users/weiwei/Code/learn-webpack/src/another-module.js",
+          "module": "./src/another-module.js",
+          "moduleName": "./src/another-module.js",
+          "type": "harmony side effect evaluation",
+          "userRequest": "lodash",
+          "loc": "1:0-23"
+        },
+        {
+          "moduleId": "nifV",
+          "moduleIdentifier": "/Users/weiwei/Code/learn-webpack/src/another-module.js",
+          "module": "./src/another-module.js",
+          "moduleName": "./src/another-module.js",
+          "type": "harmony import specifier",
+          "userRequest": "lodash",
+          "loc": "4:2-3"
+        },
+        {
+          "moduleId": "tjUo",
+          "moduleIdentifier": "/Users/weiwei/Code/learn-webpack/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "type": "harmony side effect evaluation",
+          "userRequest": "lodash",
+          "loc": "1:0-23"
+        },
+        {
+          "moduleId": "tjUo",
+          "moduleIdentifier": "/Users/weiwei/Code/learn-webpack/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "type": "harmony import specifier",
+          "userRequest": "lodash",
+          "loc": "21:22-23"
+        }
+      ],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 1
+    },
+    {
+      "id": "tjUo",
+      "identifier": "/Users/weiwei/Code/learn-webpack/src/index.js",
+      "name": "./src/index.js",
+      "index": 0,
+      "index2": 2,
+      "size": 1338,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "index"
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "profile": {
+        "factory": 84,
+        "building": 44
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "type": "single entry",
+          "userRequest": "./src/index.js",
+          "loc": "index"
+        }
+      ],
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": 0,
+      "source": "import _ from 'lodash';\n\nif ('serviceWorker' in navigator) {\n  window.addEventListener('load', () => {\n    navigator.serviceWorker.register('/service-worker.js').then(registration => {\n      console.log('SW registered: ', registration);\n    }).catch(registrationError => {\n      console.log('SW registration failed: ', registrationError);\n    });\n  });\n}\n\nfunction component() {\n  const element = document.createElement('div');\n  const button = document.createElement('button');\n  const button2 = document.createElement('button');\n  const br = document.createElement('br');\n\n  button.innerHTML = 'Click me and look at the console!';\n  button2.innerHTML = '2Click me and look at the console!';\n  element.innerHTML = _.join(['Hello', 'webpack'], ' ');\n  element.appendChild(br);\n  element.appendChild(button);\n  element.appendChild(button2);\n\n  // Note that because a network request is involved, some indication\n  // of loading would need to be shown in a production-level site/app.\n  button.onclick = e => import(/* webpackChunkName: \"print\" */ './print').then(module => {\n    const print = module.default;\n\n    print();\n  });\n  button2.onclick = e => import(/* webpackChunkName: \"print2\" */ './print2').then(module => {\n    const print2 = module.default;\n\n    print2();\n  });\n\n  return element;\n}\n\ndocument.body.appendChild(component());"
+    },
+    {
+      "id": "xCld",
+      "identifier": "external \"lodash_dll_3158fce9366f9bc47f26\"",
+      "name": "external \"lodash_dll_3158fce9366f9bc47f26\"",
+      "index": 2,
+      "index2": 0,
+      "size": 42,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "index",
+        "another"
+      ],
+      "issuer": "delegated 136 from dll-reference lodash_dll_3158fce9366f9bc47f26",
+      "issuerId": "oUqH",
+      "issuerName": "delegated ./node_modules/_lodash@4.17.20@lodash/lodash.js from dll-reference lodash_dll_3158fce9366f9bc47f26",
+      "issuerPath": [
+        {
+          "id": "tjUo",
+          "identifier": "/Users/weiwei/Code/learn-webpack/src/index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "factory": 84,
+            "building": 44
+          }
+        },
+        {
+          "id": "oUqH",
+          "identifier": "delegated 136 from dll-reference lodash_dll_3158fce9366f9bc47f26",
+          "name": "delegated ./node_modules/_lodash@4.17.20@lodash/lodash.js from dll-reference lodash_dll_3158fce9366f9bc47f26",
+          "profile": {
+            "factory": 66,
+            "building": 0
+          }
+        }
+      ],
+      "profile": {
+        "factory": 0,
+        "building": 0
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "oUqH",
+          "moduleIdentifier": "delegated 136 from dll-reference lodash_dll_3158fce9366f9bc47f26",
+          "module": "delegated ./node_modules/_lodash@4.17.20@lodash/lodash.js from dll-reference lodash_dll_3158fce9366f9bc47f26",
+          "moduleName": "delegated ./node_modules/_lodash@4.17.20@lodash/lodash.js from dll-reference lodash_dll_3158fce9366f9bc47f26",
+          "type": "delegated source",
+          "userRequest": "dll-reference lodash_dll_3158fce9366f9bc47f26"
+        }
+      ],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "id": "xjlc",
+      "identifier": "/Users/weiwei/Code/learn-webpack/src/print2.js",
+      "name": "./src/print2.js",
+      "index": 5,
+      "index2": 5,
+      "size": 167,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "print2"
+      ],
+      "issuer": "/Users/weiwei/Code/learn-webpack/src/index.js",
+      "issuerId": "tjUo",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "id": "tjUo",
+          "identifier": "/Users/weiwei/Code/learn-webpack/src/index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "factory": 84,
+            "building": 44
+          }
+        }
+      ],
+      "profile": {
+        "factory": 66,
+        "building": 0
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "tjUo",
+          "moduleIdentifier": "/Users/weiwei/Code/learn-webpack/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "type": "import()",
+          "userRequest": "./print2",
+          "loc": "33:25-76"
+        }
+      ],
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [],
+      "depth": 1,
+      "source": "console.log('2The print.js module has loaded! See the network tab in dev tools...');\n\nexport default () => {\n  console.log('2Button Clicked: Here\\'s \"some text\"!');\n};"
+    }
+  ],
+  "filteredModules": 0,
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 5,
+      "debug": false
+    },
+    "copy-webpack-plugin": {
+      "entries": [
+        {
+          "type": "log",
+          "message": "begin globbing '/Users/weiwei/Code/learn-webpack/public/static/**/*' with a context of '/Users/weiwei/Code/learn-webpack/public/static'"
+        },
+        {
+          "type": "log",
+          "message": "determined that '/Users/weiwei/Code/learn-webpack/public/static/js/dll/Dll.lodash.js' should write to 'static/js/dll/Dll.lodash.js'"
+        },
+        {
+          "type": "log",
+          "message": "determined that '/Users/weiwei/Code/learn-webpack/public/static/js/dll/Dll.moment.js' should write to 'static/js/dll/Dll.moment.js'"
+        },
+        {
+          "type": "log",
+          "message": "determined that '/Users/weiwei/Code/learn-webpack/public/static/js/dll/lodash-manifest.json' should write to 'static/js/dll/lodash-manifest.json'"
+        },
+        {
+          "type": "log",
+          "message": "determined that '/Users/weiwei/Code/learn-webpack/public/static/js/dll/moment-manifest.json' should write to 'static/js/dll/moment-manifest.json'"
+        },
+        {
+          "type": "log",
+          "message": "writing 'static/js/dll/Dll.lodash.js' to compilation assets from '/Users/weiwei/Code/learn-webpack/public/static/js/dll/Dll.lodash.js'"
+        },
+        {
+          "type": "log",
+          "message": "writing 'static/js/dll/Dll.moment.js' to compilation assets from '/Users/weiwei/Code/learn-webpack/public/static/js/dll/Dll.moment.js'"
+        },
+        {
+          "type": "log",
+          "message": "writing 'static/js/dll/lodash-manifest.json' to compilation assets from '/Users/weiwei/Code/learn-webpack/public/static/js/dll/lodash-manifest.json'"
+        },
+        {
+          "type": "log",
+          "message": "writing 'static/js/dll/moment-manifest.json' to compilation assets from '/Users/weiwei/Code/learn-webpack/public/static/js/dll/moment-manifest.json'"
+        }
+      ],
+      "filteredEntries": 14,
+      "debug": false
+    }
+  },
+  "children": [
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "",
+      "outputPath": "/Users/weiwei/Code/learn-webpack/dist",
+      "assetsByChunkName": {
+        "HtmlWebpackPlugin_0": "__child-HtmlWebpackPlugin_0"
+      },
+      "assets": [
+        {
+          "name": "__child-HtmlWebpackPlugin_0",
+          "size": 4610,
+          "chunks": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "chunkNames": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "info": {},
+          "emitted": false
+        }
+      ],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "HtmlWebpackPlugin_0": {
+          "chunks": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "assets": [
+            "__child-HtmlWebpackPlugin_0"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "HtmlWebpackPlugin_0": {
+          "chunks": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "assets": [
+            "__child-HtmlWebpackPlugin_0"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "chunks": [
+        {
+          "id": "HtmlWebpackPlugin_0",
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "size": 563,
+          "names": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "files": [
+            "__child-HtmlWebpackPlugin_0"
+          ],
+          "hash": "72b57c955aa51592ba3c",
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "childrenByOrder": {},
+          "modules": [
+            {
+              "id": "RtIF",
+              "identifier": "/Users/weiwei/Code/learn-webpack/node_modules/_html-webpack-plugin@4.4.1@html-webpack-plugin/lib/loader.js!/Users/weiwei/Code/learn-webpack/public/index.html",
+              "name": "./node_modules/_html-webpack-plugin@4.4.1@html-webpack-plugin/lib/loader.js!./public/index.html",
+              "index": 0,
+              "index2": 0,
+              "size": 563,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                "HtmlWebpackPlugin_0"
+              ],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "profile": {
+                "factory": 124,
+                "building": 11
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "/Users/weiwei/Code/learn-webpack/node_modules/_html-webpack-plugin@4.4.1@html-webpack-plugin/lib/loader.js!/Users/weiwei/Code/learn-webpack/public/index.html",
+                  "loc": "HtmlWebpackPlugin_0"
+                }
+              ],
+              "providedExports": null,
+              "optimizationBailout": [],
+              "depth": 0,
+              "source": "var _ = __non_webpack_require__(\"/Users/weiwei/Code/learn-webpack/node_modules/_lodash@4.17.20@lodash/lodash.js\");module.exports = function (templateParams) { with(templateParams) {return (function(data) {\nvar __t, __p = '';\n__p += '<!DOCTYPE html>\\n<html>\\n  <head>\\n    <meta charset=\"utf-8\">\\n    <title>Development</title>\\n    <script src=\"./static/js/dll/Dll.lodash.js\"></script>\\n    <script src=\"./static/js/dll/Dll.moment.js\"></script>\\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"></head>\\n  <body>\\n</html>';\nreturn __p\n})();}}"
+            }
+          ],
+          "filteredModules": 0,
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "HtmlWebpackPlugin_0",
+              "request": "/Users/weiwei/Code/learn-webpack/node_modules/_html-webpack-plugin@4.4.1@html-webpack-plugin/lib/loader.js!/Users/weiwei/Code/learn-webpack/public/index.html",
+              "reasons": []
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "id": "RtIF",
+          "identifier": "/Users/weiwei/Code/learn-webpack/node_modules/_html-webpack-plugin@4.4.1@html-webpack-plugin/lib/loader.js!/Users/weiwei/Code/learn-webpack/public/index.html",
+          "name": "./node_modules/_html-webpack-plugin@4.4.1@html-webpack-plugin/lib/loader.js!./public/index.html",
+          "index": 0,
+          "index2": 0,
+          "size": 563,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "profile": {
+            "factory": 124,
+            "building": 11
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "/Users/weiwei/Code/learn-webpack/node_modules/_html-webpack-plugin@4.4.1@html-webpack-plugin/lib/loader.js!/Users/weiwei/Code/learn-webpack/public/index.html",
+              "loc": "HtmlWebpackPlugin_0"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "var _ = __non_webpack_require__(\"/Users/weiwei/Code/learn-webpack/node_modules/_lodash@4.17.20@lodash/lodash.js\");module.exports = function (templateParams) { with(templateParams) {return (function(data) {\nvar __t, __p = '';\n__p += '<!DOCTYPE html>\\n<html>\\n  <head>\\n    <meta charset=\"utf-8\">\\n    <title>Development</title>\\n    <script src=\"./static/js/dll/Dll.lodash.js\"></script>\\n    <script src=\"./static/js/dll/Dll.moment.js\"></script>\\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"></head>\\n  <body>\\n</html>';\nreturn __p\n})();}}"
+        }
+      ],
+      "filteredModules": 0,
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "HtmlWebpackCompiler"
+    }
+  ]
+}
